@@ -23,8 +23,7 @@ const Navbar = () => {
           } className=' mx-4 text-2xl lg:text-3xl my-auto cursor-pointer' />
           <div className=' flex justify-center items-center'>
             <Link href='/'>
-              <Image onClick={() => { dispatch(setProgress(100)) }}
-                src={logo} alt="logo" className=' lg:py-2  aspect-video w-[135px] h-[30.741px] lg:h-[58px] lg:w-[190px]' />
+              <h3>Music</h3>
             </Link>
           </div>
         </div>
